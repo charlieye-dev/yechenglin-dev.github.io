@@ -1,11 +1,11 @@
 ---
-title: "Toha tutorial"
-date: 2020-12-22T14:06:25+06:00
-hero: /posts/toha-tutorial/hero.svg
+title: "Hugo Toha"
+date: 2020-12-22T08:06:25+06:00
+hero: /posts/hugo-toha/hero.svg
 description: Introduction to Sample Post
 menu:
   sidebar:
-    name: Toha tutorial
+    name: Hugo Toha
     identifier: Toha tutorial
     weight: 10
 ---
