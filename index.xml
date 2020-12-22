@@ -4,4 +4,33 @@ https://themes.gohugo.io/toha/
 Toha homepage
 https://hugo-toha.github.io/
 Toha tutorial
-https://toha-guides.netlify.app/posts/</description></item></channel></rss>
+https://toha-guides.netlify.app/posts/</description></item><item><title>Configure Development Environment</title><link>/posts/nvidia/configure-env/</link><pubDate>Tue, 22 Dec 2020 06:00:20 +0600</pubDate><guid>/posts/nvidia/configure-env/</guid><description>Install NVIDIA Development Environment This document describes how to setup NVIDIA full development environment under ubuntu-18.04.
+Install NVIDIA driver Choose corresponding driver version based on your card series
+https://www.nvidia.co.jp/Download/index.aspx
+then, download it.
+Run installation script
+$ sudo bash NVIDIA-Linux-x86_64-440.82.run NOTE: ensure that make, gcc and libc header files have been installed in previous, if not, install them as follows,
+$ sudo apt-get install gcc make build-essential linux-headers-`uname -r` --no-install-recommends Reboot</description></item><item><title>Configure wifi on ubuntu</title><link>/posts/linux/configure-wifi-on-ubuntu/</link><pubDate>Tue, 22 Dec 2020 06:00:20 +0600</pubDate><guid>/posts/linux/configure-wifi-on-ubuntu/</guid><description> configure wifi information.
+ubuntu@ubuntu:~$ cat /etc/wpa_supplicant/wpa_supplicant.conf netwokr={ ssid=&amp;quot;cicso&amp;quot; psk=&amp;quot;ubunut12345&amp;quot; } specify configure file and network interface.
+ubuntu@ubuntu:~$ cat /lib/systemd/system/wpa_supplicant.service ..... [Service] ExecStart=/sbin/wpa_supplicant -u -s -o /run/wpa_supplicant/ -c /etc/wpa_supplicant/wpa_supplicant.conf -i wlan0 .....</description></item><item><title>Helm</title><link>/posts/kubernetes/helm/</link><pubDate>Tue, 22 Dec 2020 06:00:20 +0600</pubDate><guid>/posts/kubernetes/helm/</guid><description>Helm Local helm repository for preparing a local helm repository, user has to setup follows,
+ChartMuseum is an open-source, easy to deploy, Helm Chart Repository server.
+https://chartmuseum.com/ https://github.com/helm/chartmuseum
+Helm-servecm is a plugin that help to start ChartMuseum server.
+https://github.com/jdolitsky/helm-servecm
+Helm-push is a helm plugin to push helm chart package to ChartMuseum.
+https://github.com/chartmuseum/helm-push
+Install ChartMuseum/Helm-servecm/Helm-push plugins install ChartMuseum/Helm-servecm</description></item><item><title>Kubeadm</title><link>/posts/kubernetes/kubeadm/</link><pubDate>Tue, 22 Dec 2020 06:00:20 +0600</pubDate><guid>/posts/kubernetes/kubeadm/</guid><description>Kubeadm This document shows some usages of kubeadm.
+Official document:
+https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm/
+Specify certifications and token when kubeadm init. Generate certificates
+openssl genrsa -out ca.key 2048 openssl rand -writerand .rnd openssl req -x509 -new -nodes -key ca.key -subj &amp;quot;/CN=$MASTER_IP&amp;quot; -days 10000 -out ca.crt cp ca.key /etc/kubernetes/pki cp ca.crt /etc/kubernetes/pki Initialize cluster
+kubeadm init --token 5uitrl.aiajjpm6mkoouzkk --token-ttl 0 --cert-dir /etc/kubernetes/pki/ since there is no tool for creating a token(kubeadm token can be valid when cluster is running only), it can spcify a token as token format.</description></item><item><title>Kubelet</title><link>/posts/kubernetes/kubelet/</link><pubDate>Tue, 22 Dec 2020 06:00:20 +0600</pubDate><guid>/posts/kubernetes/kubelet/</guid><description>Kubelet This document provides some tips of using kubelet.
+Official documents:
+https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/
+Tips Since all slave nodes have no capability of storing in kubernetes, it means that kubelet has to request api-server in period.
+Once slave node was registered to cluster, it no way reconfigure some features by restarting kubelet, for example labeling node by --node-label option when start kubelet. However, if slave node is deleted by administrator(kubectl delete node $NODE_NAME) from cluster, slave node can rejoin cluster by restarting cluster, also some reconfigurable features will active.</description></item><item><title>Linux Repositories</title><link>/posts/linux/repo/</link><pubDate>Tue, 22 Dec 2020 06:00:20 +0600</pubDate><guid>/posts/linux/repo/</guid><description>Ubuntu Images
+http://old-releases.ubuntu.com/releases/</description></item><item><title>Nvidia Repositories</title><link>/posts/nvidia/repo/</link><pubDate>Tue, 22 Dec 2020 06:00:20 +0600</pubDate><guid>/posts/nvidia/repo/</guid><description>Cuda https://developer.download.nvidia.com/compute/cuda/repos/
+Machine learning http://developer.download.nvidia.com/compute/machine-learning/repos/</description></item><item><title>Taint manager eviction</title><link>/posts/kubernetes/taint_manager_eviction/</link><pubDate>Tue, 22 Dec 2020 06:00:20 +0600</pubDate><guid>/posts/kubernetes/taint_manager_eviction/</guid><description>Taint Based Eviction https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/#taint-based-evictions
+For current kubernetes, Taint based Evictions support as follows,
+tolerations node.kubernetes.io/not-ready:NoExecute for 300s and node.kubernetes.io/unreachable:NoExecute for 300s are marked on pods in default by k8s when deploy, it means that pods can tolerate these taints for 300s.
+$ kubectl describe po my-pod-787f46887-cx2gt | grep -i node Node: edge/192.168.0.4 Tolerations: node.kubernetes.io/not-ready:NoExecute for 300s node.kubernetes.io/unreachable:NoExecute for 300s once a slave node was disconnected from cluster, taints node.</description></item></channel></rss>
