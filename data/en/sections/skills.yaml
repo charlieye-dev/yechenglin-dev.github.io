@@ -11,16 +11,39 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
+- name: Linux
+  icon: "/images/sections/skills/linux.png"
+
+- name: Git
+  icon: "/images/sections/skills/git.png"
+  url: "https://git-scm.com/"
+
 - name: Kubernetes
   icon: "/images/sections/skills/kubernetes.png"
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  # summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
   url: "https://kubernetes.io/"
 
-- name: Go Development
+- name: KubeEdge
+  icon: "/images/sections/skills/kubeedge.png"
+  url: "https://kubeedge.io/"
+
+- name: Docker
+  icon: "/images/sections/skills/docker.svg"
+  url: "https://en.wikipedia.org/wiki/Docker_(software)"
+
+- name: Gsteamer
+  icon: "/images/sections/skills/gstreamer.png"
+  url: "https://gstreamer.freedesktop.org/"
+
+- name: Golang
   icon: "/images/sections/skills/go.png"
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+  #  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
   url: "https://golang.org/"
 
-- name: Cloud Computing
-  icon: "/images/sections/skills/cloud.png"
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+- name: C++
+  icon: "/images/sections/skills/c++.png"
+  # summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+
+- name: CMake
+  icon: "/images/sections/skills/cmake.svg"
+  url: "https://cmake.org/"
