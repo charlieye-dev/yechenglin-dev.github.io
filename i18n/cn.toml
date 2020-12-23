@@ -1,0 +1,51 @@
+# More documentation here: https://github.com/nicksnyder/go-i18n
+[home]
+other = "首页"
+
+[posts]
+other = "文章"
+
+[toc_heading]
+other = "目录"
+
+[at]
+other = "at"
+
+[resume]
+other = "个人简历"
+
+[navigation]
+other = "Navigation"
+
+[contact_me]
+other = "联系:"
+
+[email]
+other = "邮箱"
+
+[phone]
+other = "手机"
+
+[newsletter_text]
+other = "Stay up to date with email notification"
+
+[newsletter_input_placeholder]
+other = "Enter email"
+
+[newsletter_warning]
+other = "We'll never share your email with anyone else."
+
+[submit]
+other = "Submit"
+
+[hugoAttributionText]
+other = "Powered by"
+
+[prev]
+other = "上一页"
+
+[next]
+other = "下一页"
+
+[improve_this_page]
+other = "Improve this page"
