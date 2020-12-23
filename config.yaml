@@ -1,7 +1,7 @@
 baseURLi: "https://yechenglin-dev.github.io"
 
 languageCode: en-us
-title: "Ye's Blog"
+title: "Charlie's Blog"
 theme: "toha"
 
 # Manage languages
@@ -26,7 +26,7 @@ params:
   # GitHub repo URL of your site
   gitRepo: https://github.com/yechenglin-dev/yechenglin-dev.github.io
 
-  # specify whether you want to write some blog posts or not 
+  # specify whether you want to write some blog posts or not
   enableBlogPost: true
 
   # specify whether you want to show Table of Contents in reading page
