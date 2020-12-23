@@ -10,6 +10,9 @@ languages:
   en:
     languageName: English
     weight: 1
+  cn:
+    languageName: 简体中文
+    weight: 2
 
 # Control TOC depth
 markup:
@@ -23,8 +26,15 @@ enableEmoji: true
 
 # Site parameters
 params:
+ # background: /images/site/background.jpg
+
+  logo:
+    main: /images/site/sunny-logo.png
+    inverted: /images/site/sunny-logo.png
+    favicon: /images/site/sunny-logo.png
+
   # GitHub repo URL of your site
-  gitRepo: https://github.com/yechenglin-dev/yechenglin-dev.github.io
+  # gitRepo: https://github.com/yechenglin-dev/yechenglin-dev.github.io
 
   # specify whether you want to write some blog posts or not
   enableBlogPost: true
