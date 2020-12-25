@@ -3,6 +3,6 @@ title: Kubernetes
 menu:
   sidebar:
     name: Kubernetes
-    identifier: kubernetes
+    identifier: Kubernetes
     weight: 300
 ---

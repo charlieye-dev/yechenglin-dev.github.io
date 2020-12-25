@@ -1,16 +1,14 @@
 ---
-title: "Kubelet"
+title: "Tips"
 date: 2020-12-22T06:00:20+06:00
 #hero: /images/posts/writing-posts/git.svg
 menu:
   sidebar:
-    name: Kubelet
-    identifier: kubernetes-kubelet
-    parent: kubernetes
+    name: Tips
+    identifier: kubelet-tips
+    parent: Kubelet
     weight: 10
 ---
-
-# Kubelet
 
 This document provides some tips of using kubelet.
 

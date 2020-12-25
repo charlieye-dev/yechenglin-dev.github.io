@@ -1,6 +1,6 @@
 ---
 title: "Hugo Toha"
-date: 2020-12-22T08:06:25+06:00
+date: 2020-12-22T07:06:25+06:00
 hero: /posts/hugo-toha/hero.svg
 description: Introduction to Sample Post
 menu:

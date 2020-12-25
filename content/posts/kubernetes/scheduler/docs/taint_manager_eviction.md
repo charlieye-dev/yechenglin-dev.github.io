@@ -6,11 +6,12 @@ menu:
   sidebar:
     name: Taint manager eviction
     identifier: kubernetes-taint-manager-eviction
-    parent: kubernetes
+    parent: scheduler
     weight: 10
 ---
 
-# Taint Based Eviction
+
+Official document:
 
 > https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/#taint-based-evictions
 

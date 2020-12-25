@@ -3,6 +3,6 @@ title: Linux
 menu:
   sidebar:
     name: Linux
-    identifier: linux
+    identifier: Linux
     weight: 300
 ---

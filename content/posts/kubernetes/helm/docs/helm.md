@@ -1,16 +1,14 @@
 ---
-title: "Helm"
+title: "Helm usage"
 date: 2020-12-22T06:00:20+06:00
 #hero: /images/posts/writing-posts/git.svg
 menu:
   sidebar:
-    name: Helm
-    identifier: kubernetes-helm
-    parent: kubernetes
+    name: Helm usage
+    identifier: Helm-usage
+    parent: Helm
     weight: 10
 ---
-
-# Helm
 
 ### Local helm repository
 

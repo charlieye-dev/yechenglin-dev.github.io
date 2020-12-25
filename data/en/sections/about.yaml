@@ -18,7 +18,7 @@ company:
 #resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a software engineer in SONY. I am capable of [Kubernetes](https://kubernetes.io/) using GO, and built a ROS distribute system.'
+summary: 'I am a software engineer in SONY. I am capable of [Kubernetes](https://kubernetes.io/) using Golang.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.

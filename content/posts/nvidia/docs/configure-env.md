@@ -10,8 +10,6 @@ menu:
     weight: 10
 ---
 
-# Install NVIDIA Development Environment
-
 This document describes how to setup NVIDIA full development environment under ubuntu-18.04.
 
 ## Install NVIDIA driver

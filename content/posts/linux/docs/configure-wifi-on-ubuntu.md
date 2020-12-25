@@ -6,7 +6,7 @@ menu:
   sidebar:
     name: Configure wifi on ubuntu
     identifier: linux-wifi
-    parent: linux
+    parent: Linux
     weight: 10
 ---
 

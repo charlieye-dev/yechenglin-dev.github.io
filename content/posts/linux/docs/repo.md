@@ -6,7 +6,7 @@ menu:
   sidebar:
     name: Repo
     identifier: linux-repo
-    parent: linux
+    parent: Linux
     weight: 10
 ---
 
