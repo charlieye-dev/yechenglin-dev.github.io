@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Helm on Charlie's Blog</title><link>/posts/kubernetes/helm/</link><description>Recent content in Helm on Charlie's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 22 Dec 2020 06:00:20 +0600</lastBuildDate><atom:link href="/posts/kubernetes/helm/index.xml" rel="self" type="application/rss+xml"/><item><title>Helm usage</title><link>/posts/kubernetes/helm/docs/helm/</link><pubDate>Tue, 22 Dec 2020 06:00:20 +0600</pubDate><guid>/posts/kubernetes/helm/docs/helm/</guid><description>Local helm repository for preparing a local helm repository, user has to setup follows,
+ChartMuseum is an open-source, easy to deploy, Helm Chart Repository server.
+https://chartmuseum.com/ https://github.com/helm/chartmuseum
+Helm-servecm is a plugin that help to start ChartMuseum server.
+https://github.com/jdolitsky/helm-servecm
+Helm-push is a helm plugin to push helm chart package to ChartMuseum.
+https://github.com/chartmuseum/helm-push
+Install ChartMuseum/Helm-servecm/Helm-push plugins install ChartMuseum/Helm-servecm</description></item></channel></rss>

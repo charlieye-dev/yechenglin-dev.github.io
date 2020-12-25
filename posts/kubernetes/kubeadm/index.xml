@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kubeadm on Charlie's Blog</title><link>/posts/kubernetes/kubeadm/</link><description>Recent content in Kubeadm on Charlie's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 25 Dec 2020 06:00:20 +0600</lastBuildDate><atom:link href="/posts/kubernetes/kubeadm/index.xml" rel="self" type="application/rss+xml"/><item><title>Cluster config</title><link>/posts/kubernetes/kubeadm/docs/kubeadm/</link><pubDate>Fri, 25 Dec 2020 06:00:20 +0600</pubDate><guid>/posts/kubernetes/kubeadm/docs/kubeadm/</guid><description>This document shows kubeadm usage,
+Official document:
+https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm/
+Default cluster config Master node
+kubeadm config print init-defaults Worker node
+kubeadm config print join-defaults Once cluster is ready, user can view kubeadm config by following command,
+kubectl get cm kubeadm-config -o yaml -n kube-system Customize cluster config kubeadm provides --config option for kubeadm init and kubeadm join, user can configure a cluster by a yaml file as following example,</description></item></channel></rss>
